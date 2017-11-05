@@ -1,0 +1,923 @@
+/*
+ Copyright (C) 2017  Intel Corporation. All rights reserved.
+ Your use of Intel Corporation's design tools, logic functions 
+ and other software and tools, and its AMPP partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Intel Program License 
+ Subscription Agreement, the Intel Quartus Prime License Agreement,
+ the Intel MegaCore Function License Agreement, or other 
+ applicable license agreement, including, without limitation, 
+ that your use is for the sole purpose of programming logic 
+ devices manufactured by Intel and sold by Intel or its 
+ authorized distributors.  Please refer to the applicable 
+ agreement for further details.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Fast Corner delays for the design using part EP4CE6E22C6
+ with speed grade M, core voltage 1.2V, and temperature 0 Celsius
+
+*/
+DESIGN "decoder";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+_5.223__5.277__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.630");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.630");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.203__5.169__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.607");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.607");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.335__5.416__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.766");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.766");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.342__5.281__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.780");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.780");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.729__5.783__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.070");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.070");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.709__5.675__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.047");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.047");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.148__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.578");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.578");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.137__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.569");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.569");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.300__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.670");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.670");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.464__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.858");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.858");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.456__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.860");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.860");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.456__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.860");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.860");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.065__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.518");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.518");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.065__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.518");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.518");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.024__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.474");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.474");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.024__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.474");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.474");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.138__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.550");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.550");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.138__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.550");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.550");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.273__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.684");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.684");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.273__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.684");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.684");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.155__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.596");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.596");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.176__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.616");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.616");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.160__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.600");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.600");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.167__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.547");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.547");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.163__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.603");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.603");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.163__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.603");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.603");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.195__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.629");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.629");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.195__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.629");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.629");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.180__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.616");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.616");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.144__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.566");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.566");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.701__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.049__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.504");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.504");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.163__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.589");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.589");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.725__5.817__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.102");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.102");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.743__5.671__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.103");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.103");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.470__5.614__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.832");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.832");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.150__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.579");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.579");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.902__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.236");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.236");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.939__5.993__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.269");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.269");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.919__5.885__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.249");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.249");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.336__5.482__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.733");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.733");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.034__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.501");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.501");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.939__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.381");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.381");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.235__5.299__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.646");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.646");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.225__5.181__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.629");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.629");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.397__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.729");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.729");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.709__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.117__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.544");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.544");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.472__5.528__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.883");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.883");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.454__5.418__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.901");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.901");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.483__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.080");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.080");
+}
+
+ENDARCDATA
+
+ARCDATA
+_3.714__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.138__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.863");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.863");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.227__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.872");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.872");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.083__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.734");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.734");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.009__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.546__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.137");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.137");
+}
+
+ENDARCDATA
+
+ARCDATA
+_3.757__3.740__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.322");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.322");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.531__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.216");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.216");
+}
+
+ENDARCDATA
+
+ARCDATA
+___3.153__delay:
+CELL_RISE( scalar ) {
+VALUES ("2.791");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("2.791");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.118__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.064__delay:
+CELL_RISE( scalar ) {
+VALUES ("3.749");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("3.749");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.698__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.719__5.109__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.439");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.439");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.613__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.187__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.364__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.779");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.779");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.290__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.175__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.482");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.482");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.431__5.185__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.474");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.474");
+}
+
+ENDARCDATA
+
+ARCDATA
+_4.865__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ARCDATA
+___4.620__delay:
+CELL_RISE( scalar ) {
+VALUES ("4.000");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("4.000");
+}
+
+ENDARCDATA
+
+ARCDATA
+___5.779__delay:
+CELL_RISE( scalar ) {
+VALUES ("5.137");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("5.137");
+}
+
+ENDARCDATA
+
+ARCDATA
+_5.705__delay:
+CELL_RISE( scalar ) {
+VALUES ("");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

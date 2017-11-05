@@ -1,0 +1,66 @@
+
+--- PROGRAM COUNTER
+
+--- author : Tatenda Muvhu & Ronewa Ndou
+--- version : 11-10-17
+
+--- This unit takes in a clock signal, an address to incase of a branch
+--- a 2 bit choose_pc_operation opcode to dertermine which operation it will perform 
+--- outputs a 16 bit pc_output address
+
+--- Operations performed by this PC 
+---
+--- 1 )
+--- 2 )
+--- 3 )
+--- 4 )
+ 
+
+library IEEE;
+use  IEEE.STD_LOGIC_1164.all;
+use  IEEE.STD_LOGIC_ARITH.all;
+use  IEEE.STD_LOGIC_UNSIGNED.all;
+
+--- program counter entity
+entity program_counter is
+    Port ( clk : in  STD_LOGIC;  --- clock signal
+           jump_to_address : in  STD_LOGIC_VECTOR (15 downto 0); --- address to jump to 
+           choose_pc_operation : in  STD_LOGIC_VECTOR (1 downto 0); --- opcode to choose operation to be performed by PC
+           pc_output : out  STD_LOGIC_VECTOR (15 downto 0) --- output address of PC
+           );
+end program_counter;
+
+
+--- behavioral description of decoder 
+architecture behave of program_counter is
+
+  -- signal to hold current program counter value 
+  signal current_pc: std_logic_vector( 15 downto 0) := X"0000";
+  
+begin
+ 
+  process (clk)
+  begin
+    if rising_edge(clk) then
+      case choose_pc_operation is
+		
+        when "00" =>   -- NOP, keep PC the same/halt
+		    
+        when "01" =>   -- increment by one
+          current_pc <= std_logic_vector(unsigned(current_pc) + 1);
+			 
+        when "10" =>    -- set address to jump to 
+          current_pc <= jump_to_address;
+			 
+        when "11" =>     -- Reset
+          current_pc <= X"0000";
+			 
+        when others =>
+		  
+      end case;
+    end if;
+  end process;
+ 
+  pc_output <= current_pc;
+ 
+end behave;

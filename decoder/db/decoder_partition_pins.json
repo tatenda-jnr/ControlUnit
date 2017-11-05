@@ -1,0 +1,225 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "opcode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[3]",
+					"strict" : false
+				},
+				{
+					"name" : "opcode[4]",
+					"strict" : false
+				},
+				{
+					"name" : "controlUnit[0]",
+					"strict" : false
+				},
+				{
+					"name" : "controlUnit[1]",
+					"strict" : false
+				},
+				{
+					"name" : "controlUnit[2]",
+					"strict" : false
+				},
+				{
+					"name" : "controlUnit[3]",
+					"strict" : false
+				},
+				{
+					"name" : "controlUnit[4]",
+					"strict" : false
+				},
+				{
+					"name" : "controlUnit[5]",
+					"strict" : false
+				},
+				{
+					"name" : "controlUnit[6]",
+					"strict" : false
+				},
+				{
+					"name" : "controlUnit[7]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[0]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[1]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[2]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[3]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[4]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[5]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[6]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[7]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[8]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[9]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[10]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[11]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[12]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[13]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[14]",
+					"strict" : false
+				},
+				{
+					"name" : "branch_offset[15]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_opcode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "pc_opcode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "mux1sel",
+					"strict" : false
+				},
+				{
+					"name" : "accload",
+					"strict" : false
+				},
+				{
+					"name" : "ALUinsel",
+					"strict" : false
+				},
+				{
+					"name" : "memwrite",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[8]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[9]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[10]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[11]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[15]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[0]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[1]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[2]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[3]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[4]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[5]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[6]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[7]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[12]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[13]",
+					"strict" : false
+				},
+				{
+					"name" : "instruction[14]",
+					"strict" : false
+				},
+				{
+					"name" : "N",
+					"strict" : false
+				},
+				{
+					"name" : "Z",
+					"strict" : false
+				},
+				{
+					"name" : "C",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
